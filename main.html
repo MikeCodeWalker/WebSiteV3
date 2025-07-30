@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+  <!-- Шапка -->
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Твой фотограф</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <script src="scripts/main.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+<body>
+  <!-- Нав -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Твой фотограф</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">Обо мне</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Портфолио</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Мейн заставка -->
+  <header class="main-section">
+    <div class="container text-center">
+      <h1>Поще, Легче, Выше, Веселей!</h1>
+    </div>
+  </header>
+
+  <!-- Обо мне -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Обо мне</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="img/5.jpg" alt="Фотограф" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6">
+          <p class="fs-5">Я фотограф, посвятивший себя запечатлению самых разных моментов жизни.
+            Мои работы - это медитация в цвете и свете, живые эмоциональные люди, захватывающие пейзажи и то что вы сами сможете разглядеть.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Портфолио -->
+  <section id="portfolio" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Портфолио</h2>
+      <div class="row g-4">
+        <!-- Фото 1 -->
+        <div class="col-md-4">
+          <div class="portfolio-item">
+            <img src="img/2.jpg" alt="Туманный лес" class="img-fluid rounded">
+            <div class="portfolio-caption">
+              <p>Парк 300 летия в г.Санкт-Петербург. 2022</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Фото 2 -->
+        <div class="col-md-4">
+          <div class="portfolio-item">
+            <img src="img/7.jpg" alt="Озеро на закате" class="img-fluid rounded">
+            <div class="portfolio-caption">
+              <p>Один из баров г.Москва. 2023</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Фото 3 -->
+        <div class="col-md-4">
+          <div class="portfolio-item">
+            <img src="img/9.jpg" alt="Цветочное поле" class="img-fluid rounded">
+            <div class="portfolio-caption">
+              <p>Троицкий мост, г.Санкт-Петербург. 2022</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Фото 4 -->
+        <div class="col-md-4">
+          <div class="portfolio-item">
+            <img src="img/10.jpg" alt="Горы в облаках" class="img-fluid rounded">
+            <div class="portfolio-caption">
+              <p>Петропавловская крепость, г.Санкт-Петербург. 2024</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Фото 5 -->
+        <div class="col-md-4">
+          <div class="portfolio-item">
+            <img src="img/12.jpg" alt="Пустынные дюны" class="img-fluid rounded">
+            <div class="portfolio-caption">
+              <p>р.Кама 2022</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Фото 6 -->
+        <div class="col-md-4">
+          <div class="portfolio-item">
+            <img src="img/11.jpg" alt="Арктика" class="img-fluid rounded">
+            <div class="portfolio-caption">
+              <p>Хвойный бор, г.Набережные-Челны.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Контакты</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <div class="social-links">
+            <a href="https://vk.com/id164951403" target="_blank" class="social-link">
+              <i class="bi bi-vk"></i> VK
+            </a>
+            <a href="https://instagram.com" target="_blank" class="social-link">
+              <i class="bi bi-instagram"></i> Instagram
+            </a>
+            <a href="https://discord.com" target="_blank" class="social-link">
+              <i class="bi bi-discord"></i> Discord
+            </a>
+          </div>
+          <p class="mt-4 fs-5">
+            Для сотрудничества: <a href="mailto:saudosun@gmail.com">saudosun@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer class="py-4">
+    <div class="container text-center">
+      <p class="mb-0">&copy; Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
